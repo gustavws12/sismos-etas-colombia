@@ -1,0 +1,212 @@
+{
+ "n_sim": 4000,
+ "fin_catalogo": "2026-11-13 09:01:57.936000+00:00",
+ "parametros": {
+  "nu": 0.999934155130153,
+  "K": 0.367971183344468,
+  "alfa": 1.3669641357469489,
+  "c": 0.013487406268904004,
+  "p": 1.0475328744933012,
+  "d": 8.050677170574149,
+  "gama": 0.9637697798797649,
+  "q": 2.1098218722830757
+ },
+ "b": 1.0901237837136981,
+ "fraccion_fondo": 0.6343319463649216,
+ "razon_ramificacion": 0.7963017636982781,
+ "region_completa": {
+  "30d": {
+   "M4.5": {
+    "prob": 0.9992,
+    "esperados": 9.76
+   },
+   "M5.0": {
+    "prob": 0.8848,
+    "esperados": 2.57
+   },
+   "M5.5": {
+    "prob": 0.4855,
+    "esperados": 0.74
+   },
+   "M6.0": {
+    "prob": 0.2288,
+    "esperados": 0.28
+   },
+   "M6.5": {
+    "prob": 0.0948,
+    "esperados": 0.1
+   },
+   "M7.0": {
+    "prob": 0.0435,
+    "esperados": 0.05
+   }
+  },
+  "90d": {
+   "M4.5": {
+    "prob": 1.0,
+    "esperados": 26.34
+   },
+   "M5.0": {
+    "prob": 0.9982,
+    "esperados": 6.92
+   },
+   "M5.5": {
+    "prob": 0.8367,
+    "esperados": 2.02
+   },
+   "M6.0": {
+    "prob": 0.5055,
+    "esperados": 0.77
+   },
+   "M6.5": {
+    "prob": 0.238,
+    "esperados": 0.29
+   },
+   "M7.0": {
+    "prob": 0.111,
+    "esperados": 0.12
+   }
+  },
+  "365d": {
+   "M4.5": {
+    "prob": 1.0,
+    "esperados": 91.95
+   },
+   "M5.0": {
+    "prob": 1.0,
+    "esperados": 24.07
+   },
+   "M5.5": {
+    "prob": 0.997,
+    "esperados": 7.07
+   },
+   "M6.0": {
+    "prob": 0.9133,
+    "esperados": 2.7
+   },
+   "M6.5": {
+    "prob": 0.6238,
+    "esperados": 1.03
+   },
+   "M7.0": {
+    "prob": 0.342,
+    "esperados": 0.44
+   }
+  }
+ },
+ "colombia": {
+  "30d": {
+   "M4.5": {
+    "prob": 0.9233,
+    "esperados": 3.2
+   },
+   "M5.0": {
+    "prob": 0.5198,
+    "esperados": 0.85
+   },
+   "M5.5": {
+    "prob": 0.2042,
+    "esperados": 0.25
+   },
+   "M6.0": {
+    "prob": 0.0862,
+    "esperados": 0.1
+   },
+   "M6.5": {
+    "prob": 0.0338,
+    "esperados": 0.04
+   },
+   "M7.0": {
+    "prob": 0.0152,
+    "esperados": 0.02
+   }
+  },
+  "90d": {
+   "M4.5": {
+    "prob": 0.9995,
+    "esperados": 9.61
+   },
+   "M5.0": {
+    "prob": 0.8822,
+    "esperados": 2.55
+   },
+   "M5.5": {
+    "prob": 0.4948,
+    "esperados": 0.75
+   },
+   "M6.0": {
+    "prob": 0.2293,
+    "esperados": 0.28
+   },
+   "M6.5": {
+    "prob": 0.0958,
+    "esperados": 0.11
+   },
+   "M7.0": {
+    "prob": 0.0437,
+    "esperados": 0.05
+   }
+  },
+  "365d": {
+   "M4.5": {
+    "prob": 1.0,
+    "esperados": 37.43
+   },
+   "M5.0": {
+    "prob": 0.9998,
+    "esperados": 9.86
+   },
+   "M5.5": {
+    "prob": 0.9207,
+    "esperados": 2.88
+   },
+   "M6.0": {
+    "prob": 0.634,
+    "esperados": 1.12
+   },
+   "M6.5": {
+    "prob": 0.3395,
+    "esperados": 0.44
+   },
+   "M7.0": {
+    "prob": 0.1678,
+    "esperados": 0.19
+   }
+  }
+ },
+ "historico_colombia_por_ano": {
+  "M4.5": 35.689,
+  "M5.0": 8.727,
+  "M5.5": 2.191,
+  "M6.0": 0.798,
+  "M6.5": 0.353,
+  "M7.0": 0.167
+ },
+ "historico_prob_poisson_365d": {
+  "M4.5": 1.0,
+  "M5.0": 0.9998,
+  "M5.5": 0.8882,
+  "M6.0": 0.5498,
+  "M6.5": 0.2974,
+  "M7.0": 0.1538
+ },
+ "validacion_2024_2025": {
+  "observados_M45": 165,
+  "simulados_M45_mediana": 148.0,
+  "simulados_M45_p05_p95": [
+   121.0,
+   181.0
+  ],
+  "observados_M5": 29,
+  "simulados_M5_mediana": 40.0,
+  "simulados_M5_p05_p95": [
+   29.0,
+   53.0
+  ],
+  "auc_espacial_etas": 0.8957060107873144,
+  "auc_espacial_conteo_historico": 0.8869026848648596,
+  "ganancia_logverosimilitud_por_evento_vs_historico": 0.0526378441018196,
+  "celdas_con_evento": 89,
+  "celdas": 1216
+ }
+}
